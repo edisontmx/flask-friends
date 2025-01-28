@@ -104,7 +104,7 @@ const CreateUserModal = ({ setUsers }) => {
 
                             />
                         </FormControl>
-                        <RadioGroup defaultValue='male' mt={4}>
+                        <RadioGroup mt={4}>
                             <Flex gap={5}>
                                 <Radio value='male'
                                     onChange={(e) => setInputs({ ...inputs, gender: e.target.value })}
